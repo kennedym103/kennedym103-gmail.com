@@ -1,0 +1,42 @@
+{
+  "name": "redux-form-color-picker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "browser-image-compression": "^1.0.6",
+    "canvas-compress": "^1.1.5",
+    "canvas2image": "1.0.5",
+    "dom-to-image": "2.6.0",
+    "file-saver": "2.0.0-rc.3",
+    "file-upload-react": "0.1.2",
+    "font-picker": "3.0.2",
+    "html-to-image": "0.1.0",
+    "html2canvas": "1.0.0-rc.1",
+    "jquery": "3.3.1",
+    "jszip": "3.1.5",
+    "lzma": "^2.3.2",
+    "react": "16.4.0",
+    "react-bootstrap": "0.32.4",
+    "react-color": "2.13.1",
+    "react-dom": "16.4.0",
+    "react-dropzone": "5.1.0",
+    "react-font-picker": "1.1.8",
+    "react-frame": "2.1.0",
+    "react-frame-component": "4.1.0",
+    "react-image-crop": "7.0.0",
+    "react-redux": "5.0.5",
+    "redux": "3.7.1",
+    "redux-form": "6.8.0"
+  },
+  "devDependencies": {
+    "gh-pages": "2.0.1",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "node node_modules/react-scripts/scripts/start.js",
+    "build": "node node_modules/react-scripts/scripts/build.js",
+    "test": "node node_modules/react-scripts/scripts/test.js",
+    "eject": "node node_modules/react-scripts/scripts/eject.js"
+  },
+  "homepage": "https://marketing.nextguest.com/nxg-banner-generator/"
+}

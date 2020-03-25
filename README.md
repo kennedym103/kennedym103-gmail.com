@@ -1,2 +1,3 @@
-# kennedym103-gmail.com
-Google Banner Ads Generator
+# redux-react-banner-generator
+# redux-react-banner-generator
+# redux-react-banner-generator

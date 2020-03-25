@@ -1,0 +1,266 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 120px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 175px;
+  padding: 30px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+label input, label button {
+  margin-left: 15pt;
+  font-size: 15pt;
+  padding: 0 2pt;
+}
+
+
+.form__field {
+  text-align: left;
+  margin: 10px;
+  margin-left: 0;
+  flex: 1 100%;
+  label {
+    display: grid;
+    font-weight: 500;
+    color: #999;
+    font-size: 14px;
+
+    input, button {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 0;
+
+      &::placeholder {
+        font-size: 15px;
+        color: #999;
+      }
+    }
+    select {
+      border: 0px;
+      height: 42px;
+      background-color: #fff;
+    }
+  }
+}
+
+.row {
+  margin-top: 20px;
+}
+
+h4 {
+  text-align: left;
+}
+
+
+.buttons__container  button {
+  font-size: 16px;
+  border: 0;
+  background: #222;
+  color: #fff;
+  height: 45px;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.buttons__container_animate{
+  width: 100%;
+  margin-top: 30px;
+  button {
+    font-size: 16px;
+    border: 0;
+    background: #000;
+    color: #fff;
+    height: 45px;
+    width: 200px;
+    text-transform: uppercase;
+  }
+}
+
+.color-picker__color {
+  height: 35px;
+}
+
+.color-picker__picker {
+  position: absolute;
+  margin: 5pt 0;
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.btn {
+  border: 2px solid #000;
+  color: #000;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 0;
+  width: 100%;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+.main-container {
+  margin: 50px;
+  width: auto;
+  .buttons__container {
+    text-align: center;
+    width:60pt;
+  }
+  .color-picker__container {
+    button {
+      border: 0;
+      width: 100%;
+    }
+  }
+  .color-picker__picker {
+    z-index: 9;
+  }
+
+
+
+  .firstCol {
+    padding-left: 0;
+  }
+  .lastCol {
+    padding-right: 0;
+  }
+  .columnBackground {
+    background-color: #f1f1f1;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+
+  }
+  .col-md-4 {
+
+    .previewComponent {
+      margin: 10px 0;
+
+      .imgPreview {
+
+        border: 2px solid #999;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: normal;
+        color: #999;
+        margin-top: 10px;
+        div {
+          background-size: cover;
+          height: 200px;
+              background: no-repeat;
+
+        }
+      }
+      form {
+        input {
+          margin-left: 0;
+          padding-left: 0;
+          margin-bottom: 10px;
+          margin-top: 10px;
+        }
+        .submitButton {
+          margin-left: 0;
+        }
+      }
+    }
+    input {
+      border: 2px solid #fff;
+
+      padding: 5px;
+      font-weight: normal;
+      margin-left: 0;
+    }
+    input[type="file"] {
+      width: 300px;
+      border: 0px;
+    }
+
+  }
+}
+.ReactCrop {
+  position: absolute;
+  left: 0;
+  max-width: 100%;
+  width: 100% !important;
+  background: rgba(0,0,0,0) !important;
+  .ReactCrop__image {
+    height: auto;
+    max-width: 100% !important;
+
+  }
+}
+
+.modal-dialog {
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1600px;
+}
+
+.btn-group {
+  float: right;
+  div {
+    display: inline-block;
+    width: auto;
+  }
+  button {
+    display: inline-block;
+    font-size: 16px;
+    border: 0;
+    background: #222;
+    color: #fff;
+    height: 45px;
+    width: 100px;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin: 0 5px;
+    transition: .3s;
+    border: 1px solid #222;
+    &:hover {
+      background: #bbb;
+      border: 1px solid #bbb;
+      cursor: pointer;
+    }
+
+  }
+  button.active {
+    background: #fff;
+    color: #222;
+  }
+  button:nth-child(4) {
+    width: auto;
+  }
+}
+
+.bannerBox {
+  float: right;
+  height: 70%;
+}

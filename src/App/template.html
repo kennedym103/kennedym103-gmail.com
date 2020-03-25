@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="ad.size" content="{SIZE1}">
+	<meta name="ad.speed" content="{SPEED}">
+	<meta name="ad.theme" content="{THEME}">
+	<link rel="stylesheet" href="theme.css">
+	{FNTCSS}
+	<style>
+		body,
+		#banner .banner-messages .banner-message,
+		#banner .banner-button {
+			{FNTFMLY}
+		}
+		#banner {
+			border-color: {CLR6};
+		}
+		#banner .banner-messages .banner-message-1 {
+			color: {CLR1};
+			font-size: {FNTSZ1}px;
+		}
+		#banner .banner-messages .banner-message-2 {
+			color: {CLR2};
+			font-size: {FNTSZ2}px;
+		}
+		#banner .banner-messages .banner-message-3 {
+			color: {CLR3};
+			font-size: {FNTSZ3}px;
+		}
+		#banner .banner-button {
+			color: {CLR4};
+			background-color: {CLR5};
+		}
+		#banner,
+		#banner .banner-shape {
+			background-color: {CLR7};
+		}
+	</style>
+
+	<script type="text/javascript">
+		var clickTag = "{URL}",
+			color1 = "{CLR1}",
+			color2 = "{CLR2}",
+			color3 = "{CLR3}",
+			color4 = "{CLR4}",
+			color5 = "{CLR5}",
+			color6 = "{CLR6}",
+			EDITOR = false;
+		window.exitURL = '{URL}';
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div id="banner" data-size="{SIZE2}">
+		<div class="banner-logo" style="background-image:url({LOGOIMG})"></div>
+		<div class="banner-images">
+			<div class="banner-image banner-image-1" style="background-image:url({IMG1})"></div>
+			<div class="banner-image banner-image-2" style="background-image:url({IMG2})"></div>
+			<div class="banner-image banner-image-3" style="background-image:url({IMG3})"></div>
+		</div>
+		<div class="banner-player-wrapper"><div class="banner-player" id="banner-player" data-vid="{VID}"></div></div>
+		<a   class="banner-button" href="{URL}" id="bg-exit2">{BUTTONLABEL}</a>
+		<div class="banner-messages">
+			<div class="banner-message banner-message-1">{MSG1}</div>
+			<div class="banner-message banner-message-2">{MSG2}</div>
+			<div class="banner-message banner-message-3">{MSG3}</div>
+			<ins class="banner-messages-shape"></ins>
+		</div>
+		<ins class="banner-shape"></ins>
+		<a href="{URL}" id="bg-exit1"></a>
+	</div>
+
+	<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<script src="theme.js"></script>
+	<script src="engine.js"></script>
+
+
+</body>
+</html>

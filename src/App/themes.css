@@ -1,0 +1,2482 @@
+#d1 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #fff; }
+  #d1 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    left: 20px;
+    top: auto;
+    bottom: 10px;
+    width: calc(50% - 20px);
+    height: calc(33% - 20px);
+    background-size: contain; }
+  #d1 .banner-images {
+    position: absolute;
+    top: 0;
+    bottom: 20%;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    overflow: hidden; }
+  #d1 .banner-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important; }
+  #d1 .banner-shape {
+    position: absolute;
+    z-index: 800;
+    left: -50%;
+    top: 60%;
+    width: 200%;
+    height: 100%;
+    background: #fff;
+    transform: rotate(-5deg); }
+  #d1 .banner-button {
+    position: absolute;
+    z-index: 1200;
+    right: 20px;
+    top: 20px;
+    bottom: auto;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #888;
+    color: #fff;
+    text-align: center;
+    text-decoration: none; }
+  #d1 .banner-messages {
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 40%;
+    text-align: center; }
+    #d1 .banner-messages .banner-message {
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+      line-height: 1.125em;
+      font-weight: 700;
+      letter-spacing: .5px;
+      color: #4e3a22;
+      white-space: pre-line;
+      word-break: break-all; }
+  #d1[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d1[data-size="160x600"] .banner-shape {
+      top: 50%; }
+    #d1[data-size="160x600"] .banner-logo {
+      left: 10px;
+      right: 10px;
+      bottom: 20px;
+      width: auto;
+      height: 70px; }
+    #d1[data-size="160x600"] .banner-button {
+      top: 440px;
+      left: 20px;
+      font-size: 13px;
+      line-height: 32px; }
+    #d1[data-size="160x600"] .banner-messages {
+      width: auto;
+      height: auto;
+      bottom: 180px;
+      right: 10px;
+      left: 10px; }
+      #d1[data-size="160x600"] .banner-messages .banner-message {
+        position: static;
+        transform: none;
+        font-size: 23px;
+        line-height: 26px;
+        white-space: normal; }
+        #d1[data-size="160x600"] .banner-messages .banner-message.banner-message-3 {
+          font-size: 30px;
+          line-height: 30px; }
+  #d1[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d1[data-size="300x600"] .banner-shape {
+      top: 50%; }
+    #d1[data-size="300x600"] .banner-logo {
+      left: 10px;
+      right: 10px;
+      bottom: 20px;
+      width: auto;
+      height: 80px; }
+    #d1[data-size="300x600"] .banner-button {
+      top: 410px;
+      left: 40px;
+      right: 40px;
+      font-size: 16px;
+      line-height: 42px; }
+    #d1[data-size="300x600"] .banner-messages {
+      width: auto;
+      height: auto;
+      bottom: 200px;
+      right: 20px;
+      left: 20px; }
+      #d1[data-size="300x600"] .banner-messages .banner-message {
+        position: static;
+        transform: none;
+        letter-spacing: 0.5px;
+        font-size: 35px;
+        line-height: 35px;
+        white-space: normal; }
+  #d1[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d1[data-size="320x50"] .banner-shape {
+      left: -10%;
+      top: -50%;
+      width: 82%;
+      height: 200%;
+      transform: rotate(-10deg); }
+    #d1[data-size="320x50"] .banner-logo {
+      left: 10px;
+      bottom: 1px;
+      top: 1px;
+      width: 30%;
+      height: auto; }
+    #d1[data-size="320x50"] .banner-images {
+      position: absolute;
+      left: 70%;
+      top: 0;
+      bottom: 0;
+      right: 0; }
+      #d1[data-size="320x50"] .banner-images .banner-image-1 {
+        height: 220%; }
+    #d1[data-size="320x50"] .banner-messages {
+      right: auto;
+      top: 2px;
+      bottom: 2px;
+      left: 34%;
+      width: 36%;
+      height: auto; }
+      #d1[data-size="320x50"] .banner-messages .banner-message.banner-message-3 {
+        position: static;
+        transform: none;
+        width: auto;
+        font-size: 13px;
+        line-height: 13px;
+        white-space: normal; }
+    #d1[data-size="320x50"] .banner-button {
+      left: 36%;
+      width: 20%;
+      line-height: 18px;
+      padding: 0 15px;
+      font-size: 8px;
+      top: auto;
+      bottom: 1px; }
+  #d1[data-size="728x90"] {
+    width: 728px;
+    height: 90px; }
+    #d1[data-size="728x90"] .banner-shape {
+      left: -14%;
+      top: -50%;
+      width: 75%;
+      height: 240%;
+      transform: rotate(-9deg); }
+    #d1[data-size="728x90"] .banner-logo {
+      left: 10px;
+      bottom: 10px;
+      top: 10px;
+      width: 25%;
+      height: auto;
+      background-position: 0 50%; }
+    #d1[data-size="728x90"] .banner-images {
+      position: absolute;
+      left: 59%;
+      top: 0;
+      bottom: 0;
+      right: 0; }
+      #d1[data-size="728x90"] .banner-images .banner-image-1 {
+        height: 220%; }
+      #d1[data-size="728x90"] .banner-images .banner-image-2 {
+        background-position: 50% 50%; }
+    #d1[data-size="728x90"] .banner-messages {
+      right: auto;
+      top: 10px;
+      bottom: 10px;
+      left: 25%;
+      width: 35%;
+      height: auto; }
+      #d1[data-size="728x90"] .banner-messages .banner-message {
+        font-size: 24px;
+        line-height: 24px;
+        left: 0;
+        transform: translate(0, -50%); }
+        #d1[data-size="728x90"] .banner-messages .banner-message.banner-message-3 {
+          position: static;
+          transform: none;
+          white-space: normal; }
+    #d1[data-size="728x90"] .banner-button {
+      left: 30%;
+      width: 20%;
+      line-height: 32px;
+      padding: 0 15px;
+      font-size: 14px;
+      top: auto;
+      bottom: 10px; }
+  #d1[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d1[data-size="468x60"] .banner-shape {
+      left: -10%;
+      top: -50%;
+      width: 82%;
+      height: 220%;
+      transform: rotate(-10deg); }
+    #d1[data-size="468x60"] .banner-logo {
+      left: 10px;
+      bottom: 4px;
+      top: 4px;
+      width: 30%;
+      height: auto; }
+    #d1[data-size="468x60"] .banner-images {
+      position: absolute;
+      left: 71%;
+      top: 0;
+      bottom: 0;
+      right: 0; }
+      #d1[data-size="468x60"] .banner-images .banner-image-1 {
+        height: 220%; }
+    #d1[data-size="468x60"] .banner-messages {
+      right: auto;
+      top: 2px;
+      bottom: 2px;
+      left: 34%;
+      width: 36%;
+      height: auto; }
+      #d1[data-size="468x60"] .banner-messages .banner-message.banner-message-3 {
+        position: static;
+        transform: none;
+        width: auto;
+        font-size: 16px;
+        line-height: 26px;
+        white-space: normal; }
+    #d1[data-size="468x60"] .banner-button {
+      left: 39%;
+      width: 20%;
+      line-height: 25px;
+      padding: 0 15px;
+      font-size: 12px;
+      top: auto;
+      bottom: 4px; }
+
+#d2 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #fff; }
+  #d2 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    left: 20px;
+    top: 10px;
+    right: 20px;
+    bottom: auto;
+    width: auto;
+    height: calc(30% - 20px);
+    background-size: contain;
+    background-position: 50% 50%; }
+  #d2 .banner-images {
+    top: 30%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    background: #eee;
+    overflow: hidden; }
+    #d2 .banner-images .banner-image-1 {
+      transform: scale(1.2); }
+    #d2 .banner-images:after {
+      content: '';
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 50%); }
+  #d2 .banner-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #005172; }
+  #d2 .banner-shape {
+    position: absolute;
+    z-index: 800;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    background: #fff;
+    transform: none; }
+  #d2 .banner-button {
+    display: none;
+    position: absolute;
+    z-index: 1200;
+    right: 20px;
+    bottom: 20px;
+    top: auto;
+    line-height: 40px;
+    padding: 0 10px;
+    width: auto;
+    min-width: 40px;
+    background: #888;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap; }
+  #d2 .banner-messages {
+    position: absolute;
+    z-index: 9999;
+    right: 100px;
+    left: 20px;
+    bottom: 15px;
+    width: auto;
+    height: 50px;
+    text-align: left;
+    padding-left: 14px;
+    font-weight: 700; }
+    #d2 .banner-messages .banner-messages-shape {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 2px;
+      height: 0;
+      background: #6fd4e4; }
+    #d2 .banner-messages .banner-message {
+      display: none;
+      position: relative;
+      opacity: 0;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      transform: none;
+      font-size: 22px;
+      line-height: 1.25em;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: #fff;
+      white-space: pre-line;
+      word-break: break-all; }
+  #d2[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d2[data-size="160x600"] .banner-shape {
+      top: 0; }
+    #d2[data-size="160x600"] .banner-logo {
+      top: 20px;
+      height: calc(30% - 40px); }
+    #d2[data-size="160x600"] .banner-button {
+      bottom: 60px;
+      left: 20px;
+      right: 20px;
+      font-size: 16px;
+      line-height: 40px; }
+    #d2[data-size="160x600"] .banner-images:after {
+      top: 0;
+      bottom: auto; }
+    #d2[data-size="160x600"] .banner-messages {
+      width: auto;
+      height: auto;
+      bottom: auto;
+      top: calc(30% + 30px);
+      right: 20px;
+      left: 20px;
+      padding-left: 14px; }
+      #d2[data-size="160x600"] .banner-messages .banner-message {
+        position: static;
+        transform: none;
+        font-size: 25px;
+        line-height: 25px;
+        white-space: normal; }
+  #d2[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d2[data-size="300x600"] .banner-shape {
+      top: 0; }
+    #d2[data-size="300x600"] .banner-logo {
+      top: 20px;
+      height: calc(30% - 40px); }
+    #d2[data-size="300x600"] .banner-button {
+      bottom: 40px;
+      left: 40px;
+      right: 40px;
+      font-size: 18px;
+      line-height: 40px; }
+    #d2[data-size="300x600"] .banner-images:after {
+      top: 0;
+      bottom: auto; }
+    #d2[data-size="300x600"] .banner-messages {
+      width: auto;
+      height: auto;
+      bottom: auto;
+      top: calc(30% + 30px);
+      right: 20px;
+      left: 40px;
+      padding-left: 20px; }
+      #d2[data-size="300x600"] .banner-messages .banner-message {
+        position: static;
+        transform: none;
+        font-size: 35px;
+        line-height: 35px;
+        white-space: normal; }
+      #d2[data-size="300x600"] .banner-messages .banner-messages-shape {
+        left: 0; }
+  #d2[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d2[data-size="320x50"] .banner-shape {
+      display: none; }
+    #d2[data-size="320x50"] .banner-logo {
+      left: 5px;
+      bottom: 5px;
+      top: 5px;
+      width: calc(30% - 10px);
+      height: auto;
+      background-position: 50% 50%; }
+    #d2[data-size="320x50"] .banner-images {
+      position: absolute;
+      left: 30%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: auto;
+      overflow: hidden; }
+      #d2[data-size="320x50"] .banner-images .banner-image-1 {
+        height: 220%; }
+      #d2[data-size="320x50"] .banner-images .banner-image-2 {
+        background-position: 50% 50%; }
+      #d2[data-size="320x50"] .banner-images:after {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 50%); }
+    #d2[data-size="320x50"] .banner-messages {
+      right: auto;
+      top: 50%;
+      bottom: auto;
+      left: calc(30% + 10px);
+      width: 35%;
+      height: auto;
+      padding: 0 0 0 10px;
+      transform: translate(0, -50%); }
+      #d2[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 14px;
+        line-height: 15px; }
+      #d2[data-size="320x50"] .banner-messages .banner-messages-shape {
+        left: 0; }
+    #d2[data-size="320x50"] .banner-button {
+      right: 20%;
+      width: 20%;
+      line-height: 22px;
+      padding: 0 8px;
+      font-size: 11px;
+      top: 50%;
+      bottom: auto;
+      transform: translate(50%, -50%); }
+  #d2[data-size="728x90"] {
+    width: 728px;
+    height: 90px; }
+    #d2[data-size="728x90"] .banner-shape {
+      display: none; }
+    #d2[data-size="728x90"] .banner-logo {
+      left: 10px;
+      bottom: 10px;
+      top: 10px;
+      width: calc(30% - 20px);
+      height: auto;
+      background-position: 50% 50%; }
+    #d2[data-size="728x90"] .banner-images {
+      position: absolute;
+      left: 30%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: auto;
+      overflow: hidden; }
+      #d2[data-size="728x90"] .banner-images .banner-image-1 {
+        height: 220%; }
+      #d2[data-size="728x90"] .banner-images .banner-image-2 {
+        background-position: 50% 50%; }
+      #d2[data-size="728x90"] .banner-images:after {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 50%); }
+    #d2[data-size="728x90"] .banner-messages {
+      right: auto;
+      top: 50%;
+      bottom: auto;
+      left: calc(30% + 40px);
+      width: 35%;
+      height: auto;
+      padding: 0 0 0 14px;
+      transform: translate(0, -50%); }
+      #d2[data-size="728x90"] .banner-messages .banner-message {
+        font-size: 24px;
+        line-height: 24px; }
+      #d2[data-size="728x90"] .banner-messages .banner-messages-shape {
+        left: 0; }
+    #d2[data-size="728x90"] .banner-button {
+      right: 20%;
+      width: 20%;
+      line-height: 32px;
+      padding: 0 15px;
+      font-size: 14px;
+      top: 50%;
+      bottom: auto;
+      transform: translate(50%, -50%); }
+  #d2[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d2[data-size="468x60"] .banner-shape {
+      display: none; }
+    #d2[data-size="468x60"] .banner-logo {
+      left: 5px;
+      bottom: 5px;
+      top: 5px;
+      width: calc(30% - 10px);
+      height: auto;
+      background-position: 50% 50%; }
+    #d2[data-size="468x60"] .banner-images {
+      position: absolute;
+      left: 30%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: auto;
+      overflow: hidden; }
+      #d2[data-size="468x60"] .banner-images .banner-image-1 {
+        height: 220%; }
+      #d2[data-size="468x60"] .banner-images .banner-image-2 {
+        background-position: 50% 50%; }
+      #d2[data-size="468x60"] .banner-images:after {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 50%); }
+    #d2[data-size="468x60"] .banner-messages {
+      right: auto;
+      top: 50%;
+      bottom: auto;
+      left: calc(30% + 10px);
+      width: 35%;
+      height: auto;
+      padding: 0 0 0 10px;
+      transform: translate(0, -50%); }
+      #d2[data-size="468x60"] .banner-messages .banner-message {
+        font-size: 14px;
+        line-height: 15px; }
+      #d2[data-size="468x60"] .banner-messages .banner-messages-shape {
+        left: 0; }
+    #d2[data-size="468x60"] .banner-button {
+      right: 20%;
+      width: 20%;
+      line-height: 22px;
+      padding: 0 8px;
+      font-size: 11px;
+      top: 50%;
+      bottom: auto;
+      transform: translate(50%, -50%); }
+
+#d3 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #fff; }
+  #d3 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    left: 10px;
+    top: 10px;
+    right: auto;
+    bottom: auto;
+    width: calc(50% - 20px);
+    height: calc(40% - 20px);
+    background-size: contain;
+    background-position: 50% 50%; }
+  #d3 .banner-images {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    width: auto;
+    z-index: 200;
+    background: #000;
+    overflow: hidden; }
+  #d3 .banner-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 100%;
+    transform: translate(-50%, 0); }
+  #d3 .banner-shape {
+    position: absolute;
+    z-index: 800;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    transform: none; }
+  #d3 .banner-button {
+    display: none;
+    position: absolute;
+    z-index: 1200;
+    left: 20px;
+    right: auto;
+    bottom: 20px;
+    top: auto;
+    padding: 0;
+    min-width: 0;
+    line-height: 40px;
+    width: calc(50% - 40px);
+    background: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap; }
+  #d3 .banner-messages {
+    position: absolute;
+    z-index: 9999;
+    right: 50%;
+    left: 0;
+    bottom: 60px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px; }
+    #d3 .banner-messages .banner-messages-shape {
+      display: none; }
+    #d3 .banner-messages .banner-message {
+      display: none;
+      position: relative;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: auto;
+      transform: none;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #000;
+      white-space: pre-line; }
+  #d3[data-step="1"] .banner-logo {
+    right: 10px;
+    left: auto; }
+  #d3[data-step="1"] .banner-messages {
+    left: 50%;
+    right: 0; }
+  #d3[data-step="1"] .banner-images {
+    left: 0;
+    right: 50%; }
+  #d3[data-step="1"] .banner-shape {
+    left: 50%; }
+  #d3[data-size="160x600"], #d3[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d3[data-size="160x600"] .banner-shape, #d3[data-size="300x600"] .banner-shape {
+      top: 0;
+      bottom: 50%;
+      left: 0;
+      right: 0;
+      height: 50%; }
+    #d3[data-size="160x600"] .banner-logo, #d3[data-size="300x600"] .banner-logo {
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      height: calc(22% - 40px);
+      background-position: 50% 50%;
+      width: auto; }
+    #d3[data-size="160x600"] .banner-button, #d3[data-size="300x600"] .banner-button {
+      bottom: calc(50% + 40px);
+      left: 40px;
+      right: 40px;
+      font-size: 18px;
+      line-height: 40px;
+      width: auto; }
+    #d3[data-size="160x600"] .banner-images, #d3[data-size="300x600"] .banner-images {
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      #d3[data-size="160x600"] .banner-images:after, #d3[data-size="300x600"] .banner-images:after {
+        top: 0;
+        bottom: auto; }
+    #d3[data-size="160x600"] .banner-messages, #d3[data-size="300x600"] .banner-messages {
+      width: auto;
+      height: auto;
+      bottom: calc(50% + 120px);
+      top: auto;
+      right: 10px;
+      left: 10px;
+      padding: 0; }
+      #d3[data-size="160x600"] .banner-messages .banner-message, #d3[data-size="300x600"] .banner-messages .banner-message {
+        position: static;
+        transform: none;
+        font-size: 20px;
+        line-height: 1.5em;
+        white-space: normal;
+        word-break: break-all; }
+      #d3[data-size="160x600"] .banner-messages .banner-messages-shape, #d3[data-size="300x600"] .banner-messages .banner-messages-shape {
+        display: none; }
+    #d3[data-size="160x600"][data-step="1"] .banner-logo, #d3[data-size="300x600"][data-step="1"] .banner-logo {
+      top: calc(50% + 10px);
+      bottom: auto; }
+    #d3[data-size="160x600"][data-step="1"] .banner-messages, #d3[data-size="300x600"][data-step="1"] .banner-messages {
+      top: 80%;
+      bottom: 0; }
+    #d3[data-size="160x600"][data-step="1"] .banner-images, #d3[data-size="300x600"][data-step="1"] .banner-images {
+      top: 0;
+      bottom: 50%; }
+    #d3[data-size="160x600"][data-step="1"] .banner-shape, #d3[data-size="300x600"][data-step="1"] .banner-shape {
+      top: 50%;
+      bottom: 0; }
+  #d3[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d3[data-size="160x600"] .banner-button {
+      left: 20px;
+      right: 20px;
+      font-size: 16px; }
+    #d3[data-size="160x600"] .banner-messages .banner-message {
+      position: static;
+      transform: none;
+      font-size: 16px;
+      line-height: 20px;
+      white-space: normal; }
+  #d3[data-size="728x90"], #d3[data-size="468x60"], #d3[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d3[data-size="728x90"] .banner-shape, #d3[data-size="468x60"] .banner-shape, #d3[data-size="320x50"] .banner-shape {
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 50%;
+      width: auto; }
+    #d3[data-size="728x90"] .banner-logo, #d3[data-size="468x60"] .banner-logo, #d3[data-size="320x50"] .banner-logo {
+      left: 10px;
+      bottom: 10px;
+      top: 10px;
+      width: 15%;
+      height: auto;
+      background-position: 50% 50%; }
+    #d3[data-size="728x90"] .banner-images, #d3[data-size="468x60"] .banner-images, #d3[data-size="320x50"] .banner-images {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: auto;
+      overflow: hidden; }
+      #d3[data-size="728x90"] .banner-images .banner-image, #d3[data-size="468x60"] .banner-images .banner-image, #d3[data-size="320x50"] .banner-images .banner-image {
+        width: 200%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: auto;
+        bottom: 0;
+        transform: translate(0, 50%); }
+    #d3[data-size="728x90"] .banner-messages, #d3[data-size="468x60"] .banner-messages, #d3[data-size="320x50"] .banner-messages {
+      right: 50%;
+      top: 50%;
+      bottom: auto;
+      left: 15%;
+      width: auto;
+      height: auto;
+      padding: 0 20px;
+      transform: translate(0, -50%); }
+      #d3[data-size="728x90"] .banner-messages .banner-message, #d3[data-size="468x60"] .banner-messages .banner-message, #d3[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 16px;
+        line-height: 20px; }
+        #d3[data-size="728x90"] .banner-messages .banner-message.banner-message-3, #d3[data-size="468x60"] .banner-messages .banner-message.banner-message-3, #d3[data-size="320x50"] .banner-messages .banner-message.banner-message-3 {
+          top: 25%;
+          transform: translate(0, -50%); }
+      #d3[data-size="728x90"] .banner-messages .banner-messages-shape, #d3[data-size="468x60"] .banner-messages .banner-messages-shape, #d3[data-size="320x50"] .banner-messages .banner-messages-shape {
+        left: 0; }
+    #d3[data-size="728x90"] .banner-button, #d3[data-size="468x60"] .banner-button, #d3[data-size="320x50"] .banner-button {
+      right: 57%;
+      width: auto;
+      left: 22%;
+      line-height: 32px;
+      padding: 0;
+      font-size: 12px;
+      top: auto;
+      bottom: 8px;
+      transform: none; }
+    #d3[data-size="728x90"][data-step="1"] .banner-logo, #d3[data-size="468x60"][data-step="1"] .banner-logo, #d3[data-size="320x50"][data-step="1"] .banner-logo {
+      left: calc(50% + 10px); }
+    #d3[data-size="728x90"][data-step="1"] .banner-messages, #d3[data-size="468x60"][data-step="1"] .banner-messages, #d3[data-size="320x50"][data-step="1"] .banner-messages {
+      left: 65%;
+      right: 0; }
+    #d3[data-size="728x90"][data-step="1"] .banner-images, #d3[data-size="468x60"][data-step="1"] .banner-images, #d3[data-size="320x50"][data-step="1"] .banner-images {
+      left: 0;
+      right: 50%; }
+      #d3[data-size="728x90"][data-step="1"] .banner-images .banner-image, #d3[data-size="468x60"][data-step="1"] .banner-images .banner-image, #d3[data-size="320x50"][data-step="1"] .banner-images .banner-image {
+        width: 100%;
+        height: 200%; }
+    #d3[data-size="728x90"][data-step="1"] .banner-shape, #d3[data-size="468x60"][data-step="1"] .banner-shape, #d3[data-size="320x50"][data-step="1"] .banner-shape {
+      left: 50%;
+      right: 0; }
+  #d3[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d3[data-size="468x60"] .banner-button {
+      line-height: 20px;
+      font-size: 10px;
+      bottom: 5px; }
+    #d3[data-size="468x60"] .banner-messages .banner-message {
+      font-size: 10px;
+      line-height: 13px; }
+  #d3[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d3[data-size="320x50"] .banner-logo {
+      left: 5px;
+      top: 5px;
+      bottom: 5px;
+      width: calc(20% - 5px); }
+    #d3[data-size="320x50"] .banner-button {
+      right: 52%;
+      left: 22%;
+      line-height: 18px;
+      font-size: 10px;
+      bottom: 4px; }
+    #d3[data-size="320x50"] .banner-messages {
+      left: 20%;
+      padding: 0 5px; }
+      #d3[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 9px;
+        line-height: 11px; }
+    #d3[data-size="320x50"][data-step="1"] .banner-logo {
+      left: calc(50% + 5px);
+      top: 5px;
+      bottom: 5px;
+      width: calc(20% - 5px); }
+    #d3[data-size="320x50"][data-step="1"] .banner-messages {
+      left: 70%; }
+
+#d4 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #1b649b; }
+  #d4 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    right: 10px;
+    top: 10px;
+    left: auto;
+    bottom: auto;
+    width: calc(50% - 20px);
+    height: calc(40% - 20px);
+    background-size: contain;
+    background-position: 50% 50%; }
+  #d4 .banner-images {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 50%;
+    width: auto;
+    z-index: 200;
+    background: #666;
+    overflow: hidden; }
+  #d4 .banner-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  #d4 .banner-shape {
+    position: absolute;
+    z-index: 800;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    transform: none; }
+  #d4 .banner-button {
+    display: none;
+    position: absolute;
+    z-index: 1200;
+    right: 20px;
+    left: auto;
+    bottom: 20px;
+    top: auto;
+    padding: 0;
+    min-width: 0;
+    line-height: 25px;
+    width: calc(50% - 40px - 4px);
+    background: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+    border: 2px solid #fff; }
+  #d4 .banner-messages {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    right: 0;
+    bottom: 60px;
+    top: 80px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 0; }
+    #d4 .banner-messages .banner-messages-shape {
+      display: none; }
+    #d4 .banner-messages .banner-message {
+      display: none;
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      top: 50%;
+      width: auto;
+      transform: none;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 300;
+      letter-spacing: 0;
+      color: #fff;
+      white-space: pre-line; }
+  #d4[data-size="160x600"], #d4[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d4[data-size="160x600"] .banner-shape, #d4[data-size="300x600"] .banner-shape {
+      top: 0;
+      bottom: 37.5%;
+      left: 0;
+      right: 0;
+      height: auto;
+      width: 100%; }
+    #d4[data-size="160x600"] .banner-logo, #d4[data-size="300x600"] .banner-logo {
+      top: 20px;
+      left: 40px;
+      right: 40px;
+      height: calc(22% - 40px);
+      background-position: 50% 50%;
+      width: auto; }
+    #d4[data-size="160x600"] .banner-button, #d4[data-size="300x600"] .banner-button {
+      bottom: calc(37.5% + 40px);
+      left: 40px;
+      right: 40px;
+      font-size: 18px;
+      line-height: 40px;
+      width: auto; }
+    #d4[data-size="160x600"] .banner-images, #d4[data-size="300x600"] .banner-images {
+      top: 62.5%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      #d4[data-size="160x600"] .banner-images:after, #d4[data-size="300x600"] .banner-images:after {
+        top: 0;
+        bottom: auto; }
+    #d4[data-size="160x600"] .banner-messages, #d4[data-size="300x600"] .banner-messages {
+      width: auto;
+      height: auto;
+      bottom: calc(37.5% + 120px);
+      top: 140px;
+      right: 10px;
+      left: 10px;
+      padding: 0; }
+      #d4[data-size="160x600"] .banner-messages .banner-message, #d4[data-size="300x600"] .banner-messages .banner-message {
+        font-size: 28px;
+        line-height: 1.5em;
+        white-space: pre-line;
+        word-break: break-all; }
+      #d4[data-size="160x600"] .banner-messages .banner-messages-shape, #d4[data-size="300x600"] .banner-messages .banner-messages-shape {
+        display: none; }
+  #d4[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d4[data-size="160x600"] .banner-shape {
+      top: 240px;
+      bottom: 0; }
+    #d4[data-size="160x600"] .banner-logo {
+      top: 260px;
+      left: 20px;
+      right: 20px;
+      height: 50px;
+      background-position: 50% 50%;
+      width: auto; }
+    #d4[data-size="160x600"] .banner-button {
+      left: 20px;
+      right: 20px;
+      font-size: 14px;
+      bottom: 40px;
+      line-height: 30px;
+      font-weight: 300; }
+    #d4[data-size="160x600"] .banner-images {
+      height: 240px;
+      top: 0;
+      bottom: auto; }
+    #d4[data-size="160x600"] .banner-messages {
+      bottom: 105px;
+      top: 330px; }
+      #d4[data-size="160x600"] .banner-messages .banner-message {
+        font-size: 19px;
+        line-height: 1.5em;
+        white-space: normal; }
+  #d4[data-size="728x90"], #d4[data-size="468x60"], #d4[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d4[data-size="728x90"] .banner-shape, #d4[data-size="468x60"] .banner-shape, #d4[data-size="320x50"] .banner-shape {
+      left: 340px;
+      top: 0;
+      bottom: 0;
+      right: auto;
+      width: auto; }
+    #d4[data-size="728x90"] .banner-logo, #d4[data-size="468x60"] .banner-logo, #d4[data-size="320x50"] .banner-logo {
+      right: 20px;
+      left: 540px;
+      bottom: 10px;
+      top: 10px;
+      width: auto;
+      height: auto;
+      background-position: 50% 50%; }
+    #d4[data-size="728x90"] .banner-images, #d4[data-size="468x60"] .banner-images, #d4[data-size="320x50"] .banner-images {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: auto;
+      width: 340px;
+      overflow: hidden; }
+      #d4[data-size="728x90"] .banner-images .banner-image, #d4[data-size="468x60"] .banner-images .banner-image, #d4[data-size="320x50"] .banner-images .banner-image {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0; }
+    #d4[data-size="728x90"] .banner-messages, #d4[data-size="468x60"] .banner-messages, #d4[data-size="320x50"] .banner-messages {
+      right: 205px;
+      top: 0;
+      bottom: 36px;
+      left: 360px;
+      width: auto;
+      height: auto;
+      padding: 0; }
+      #d4[data-size="728x90"] .banner-messages .banner-message, #d4[data-size="468x60"] .banner-messages .banner-message, #d4[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 17px;
+        line-height: 20px;
+        text-align: left;
+        left: 0;
+        right: 0; }
+    #d4[data-size="728x90"] .banner-button, #d4[data-size="468x60"] .banner-button, #d4[data-size="320x50"] .banner-button {
+      right: auto;
+      width: auto;
+      left: 360px;
+      line-height: 16px;
+      padding: 0 30px;
+      font-size: 12px;
+      top: auto;
+      bottom: 8px; }
+  #d4[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d4[data-size="468x60"] .banner-images {
+      width: 220px; }
+    #d4[data-size="468x60"] .banner-logo {
+      left: 360px; }
+    #d4[data-size="468x60"] .banner-shape {
+      left: 220px; }
+    #d4[data-size="468x60"] .banner-button {
+      line-height: 16px;
+      font-size: 10px;
+      bottom: 5px;
+      left: 230px;
+      border-width: 1px; }
+    #d4[data-size="468x60"] .banner-messages {
+      left: 230px;
+      right: 115px;
+      top: 0;
+      bottom: 28px; }
+      #d4[data-size="468x60"] .banner-messages .banner-message {
+        font-size: 10px;
+        line-height: 13px; }
+  #d4[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d4[data-size="320x50"] .banner-images {
+      width: 160px; }
+    #d4[data-size="320x50"] .banner-shape {
+      left: 160px; }
+    #d4[data-size="320x50"] .banner-logo {
+      left: 240px;
+      right: 10px; }
+    #d4[data-size="320x50"] .banner-button {
+      line-height: 16px;
+      font-size: 10px;
+      bottom: 15px;
+      left: 20px;
+      right: 182px;
+      border-width: 1px;
+      background: #fff;
+      color: #1b649b; }
+    #d4[data-size="320x50"] .banner-messages {
+      left: 170px;
+      right: 85px;
+      top: 0;
+      bottom: 0; }
+      #d4[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 10px;
+        line-height: 14px; }
+
+#d5 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #1b649b; }
+  #d5 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    right: 50%;
+    top: auto;
+    left: 20px;
+    bottom: 20px;
+    width: auto;
+    height: 80px;
+    background-size: contain;
+    background-position: 50% 50%; }
+  #d5 .banner-images {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 200;
+    background: #666;
+    overflow: hidden; }
+    #d5 .banner-images .banner-image {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; }
+      #d5 .banner-images .banner-image.banner-image-1 {
+        width: 150%; }
+  #d5 .banner-shape {
+    position: absolute;
+    z-index: 800;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transform: none;
+    opacity: .4; }
+  #d5 .banner-button {
+    display: block;
+    position: absolute;
+    z-index: 1200;
+    right: 20px;
+    left: auto;
+    bottom: 20px;
+    top: auto;
+    padding: 0 20px;
+    min-width: 0;
+    line-height: 35px;
+    width: auto;
+    background: #b0bc26;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    border: 0; }
+  #d5 .banner-messages {
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: 0;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 0;
+    text-rendering: optimizeLegibility; }
+    #d5 .banner-messages .banner-messages-shape {
+      display: none; }
+    #d5 .banner-messages .banner-message {
+      display: none;
+      position: absolute;
+      left: 20px;
+      right: auto;
+      top: 20px;
+      width: auto;
+      transform: translate(0, -100%);
+      font-size: 24px;
+      line-height: 25px;
+      font-weight: 300;
+      letter-spacing: 0;
+      color: #fff;
+      white-space: pre-line; }
+  #d5[data-size="160x600"], #d5[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d5[data-size="160x600"] .banner-shape, #d5[data-size="300x600"] .banner-shape {
+      opacity: .1; }
+    #d5[data-size="160x600"] .banner-logo, #d5[data-size="300x600"] .banner-logo {
+      right: calc(50% - 20px);
+      height: 90px;
+      width: auto; }
+    #d5[data-size="160x600"] .banner-button, #d5[data-size="300x600"] .banner-button {
+      display: none;
+      position: relative;
+      font-size: 18px;
+      line-height: 40px;
+      width: auto;
+      left: 28px;
+      top: -10px;
+      display: inline-block; }
+    #d5[data-size="160x600"] .banner-images.banner-image-1, #d5[data-size="300x600"] .banner-images.banner-image-1 {
+      width: 150%; }
+    #d5[data-size="160x600"] .banner-messages, #d5[data-size="300x600"] .banner-messages {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: auto;
+      height: auto;
+      padding: 0 28px; }
+      #d5[data-size="160x600"] .banner-messages .banner-message, #d5[data-size="300x600"] .banner-messages .banner-message {
+        position: static;
+        padding: 28px 0;
+        font-size: 37px;
+        line-height: 40px;
+        white-space: pre-line;
+        word-break: break-all; }
+      #d5[data-size="160x600"] .banner-messages .banner-messages-shape, #d5[data-size="300x600"] .banner-messages .banner-messages-shape {
+        display: none; }
+  #d5[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d5[data-size="160x600"] .banner-logo {
+      top: auto;
+      bottom: 80px;
+      left: 10px;
+      right: 10px;
+      height: 50px;
+      background-position: 50% 50%;
+      width: auto; }
+    #d5[data-size="160x600"] .banner-button {
+      position: absolute;
+      top: auto;
+      left: 10px;
+      right: 10px;
+      bottom: 20px;
+      display: block !important; }
+    #d5[data-size="160x600"] .banner-messages {
+      padding: 0 10px; }
+      #d5[data-size="160x600"] .banner-messages .banner-message {
+        padding: 30px 0;
+        font-size: 26px;
+        line-height: 30px;
+        white-space: normal; }
+  #d5[data-size="728x90"], #d5[data-size="468x60"], #d5[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d5[data-size="728x90"] .banner-logo, #d5[data-size="468x60"] .banner-logo, #d5[data-size="320x50"] .banner-logo {
+      right: auto;
+      left: 20px;
+      bottom: 10px;
+      top: 10px;
+      width: 110px;
+      height: auto;
+      background-position: 50% 50%; }
+    #d5[data-size="728x90"] .banner-images .banner-image, #d5[data-size="468x60"] .banner-images .banner-image, #d5[data-size="320x50"] .banner-images .banner-image {
+      width: 100%;
+      height: 150%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0; }
+    #d5[data-size="728x90"] .banner-messages, #d5[data-size="468x60"] .banner-messages, #d5[data-size="320x50"] .banner-messages {
+      right: auto;
+      top: 0;
+      bottom: 0;
+      left: 150px;
+      width: 440px;
+      height: auto;
+      padding: 0; }
+      #d5[data-size="728x90"] .banner-messages .banner-message, #d5[data-size="468x60"] .banner-messages .banner-message, #d5[data-size="320x50"] .banner-messages .banner-message {
+        position: absolute;
+        font-size: 24px;
+        line-height: 25px;
+        text-align: left;
+        left: 0;
+        right: 0;
+        padding: 0;
+        top: 50%; }
+    #d5[data-size="728x90"] .banner-button, #d5[data-size="468x60"] .banner-button, #d5[data-size="320x50"] .banner-button {
+      display: block !important;
+      right: 15px;
+      width: 60px;
+      left: auto;
+      line-height: 15px;
+      font-size: 15px;
+      top: 15px;
+      bottom: 15px;
+      white-space: normal;
+      padding: 15px 0;
+      text-align: center; }
+  #d5[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d5[data-size="468x60"] .banner-logo {
+      top: 5px;
+      bottom: 5px;
+      left: 10px; }
+    #d5[data-size="468x60"] .banner-button {
+      top: 5px;
+      bottom: 5px;
+      right: 5px;
+      padding: 10px 0;
+      width: 55px;
+      font-size: 14px; }
+    #d5[data-size="468x60"] .banner-messages {
+      left: 140px;
+      width: 250px; }
+      #d5[data-size="468x60"] .banner-messages .banner-message {
+        font-size: 15px;
+        line-height: 15px; }
+  #d5[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d5[data-size="320x50"] .banner-logo {
+      left: 5px;
+      bottom: 5px;
+      top: 5px;
+      width: 80px; }
+    #d5[data-size="320x50"] .banner-button {
+      top: 5px;
+      bottom: 5px;
+      right: 5px;
+      padding: 5px 0;
+      width: 55px;
+      font-size: 14px; }
+    #d5[data-size="320x50"] .banner-messages {
+      left: 95px;
+      width: 150px; }
+      #d5[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 14px;
+        line-height: 14px; }
+
+#d6 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #1b649b;
+  font-weight: normal; }
+  #d6 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    right: 15px;
+    top: auto;
+    left: auto;
+    bottom: 15px;
+    width: 155px;
+    height: 32px;
+    background-size: contain;
+    background-position: 100% 50%; }
+  #d6 .banner-images {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 200;
+    background: #666;
+    overflow: hidden; }
+    #d6 .banner-images .banner-image {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 150%;
+      height: 100%;
+      background-position: 0 50%; }
+      #d6 .banner-images .banner-image.banner-image-2 {
+        background-position: 100% 50%;
+        left: -50%; }
+  #d6 .banner-shape {
+    display: none; }
+  #d6 .banner-button {
+    display: block;
+    position: absolute;
+    z-index: 1200;
+    left: 15px;
+    right: auto;
+    bottom: 15px;
+    top: auto;
+    padding: 0 20px;
+    min-width: 0;
+    line-height: 30px;
+    width: auto;
+    background: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    white-space: nowrap;
+    border: 1px solid #fff; }
+  #d6 .banner-messages {
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 0;
+    text-rendering: optimizeLegibility; }
+    #d6 .banner-messages .banner-messages-shape {
+      position: absolute;
+      opacity: .45;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: auto;
+      height: 100%;
+      background: #364c6e;
+      z-index: 100; }
+    #d6 .banner-messages .banner-message {
+      display: none;
+      position: absolute;
+      z-index: 200;
+      left: 15px;
+      right: 15px;
+      top: 15px;
+      width: auto;
+      font-size: 26px;
+      line-height: 26px;
+      letter-spacing: 0;
+      color: #fff;
+      white-space: pre-line;
+      font-weight: normal;
+      transform: none; }
+  #d6[data-size="160x600"], #d6[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d6[data-size="160x600"] .banner-shape, #d6[data-size="300x600"] .banner-shape {
+      display: none; }
+    #d6[data-size="160x600"] .banner-logo, #d6[data-size="300x600"] .banner-logo {
+      right: 40px;
+      left: 40px;
+      bottom: 30px;
+      height: 68px;
+      width: auto;
+      background-position: 50% 50%; }
+    #d6[data-size="160x600"] .banner-button, #d6[data-size="300x600"] .banner-button {
+      display: none;
+      position: absolute;
+      font-size: 28px;
+      line-height: 40px;
+      width: auto;
+      left: 40px;
+      right: 40px;
+      top: auto;
+      bottom: 100px;
+      display: inline-block; }
+    #d6[data-size="160x600"] .banner-images.banner-image-1, #d6[data-size="300x600"] .banner-images.banner-image-1 {
+      width: 150%; }
+    #d6[data-size="160x600"] .banner-messages, #d6[data-size="300x600"] .banner-messages {
+      height: 344px;
+      top: auto; }
+      #d6[data-size="160x600"] .banner-messages .banner-message, #d6[data-size="300x600"] .banner-messages .banner-message {
+        position: absolute;
+        padding: 30px 0;
+        top: 0;
+        left: 40px;
+        right: 40px;
+        font-size: 45px;
+        line-height: 40px;
+        white-space: pre-line;
+        word-break: break-all; }
+  #d6[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d6[data-size="160x600"] .banner-logo {
+      top: auto;
+      bottom: 80px;
+      left: 10px;
+      right: 10px;
+      height: 50px;
+      background-position: 50% 50%;
+      width: auto; }
+    #d6[data-size="160x600"] .banner-button {
+      font-size: 24px;
+      line-height: 36px;
+      top: auto;
+      left: 15px;
+      right: 15px;
+      bottom: 20px;
+      display: block !important; }
+    #d6[data-size="160x600"] .banner-messages .banner-message {
+      padding: 20px 0;
+      left: 15px;
+      right: 15px;
+      font-size: 32px;
+      line-height: 30px;
+      white-space: normal; }
+  #d6[data-size="728x90"], #d6[data-size="468x60"], #d6[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d6[data-size="728x90"] .banner-logo, #d6[data-size="468x60"] .banner-logo, #d6[data-size="320x50"] .banner-logo {
+      right: auto;
+      left: 15px;
+      bottom: 15px;
+      top: 15px;
+      width: 160px;
+      height: auto;
+      background-position: 50% 50%; }
+    #d6[data-size="728x90"] .banner-images .banner-image, #d6[data-size="468x60"] .banner-images .banner-image, #d6[data-size="320x50"] .banner-images .banner-image {
+      width: 100%;
+      height: 150%;
+      left: 0;
+      right: 0;
+      top: -50%;
+      bottom: auto; }
+      #d6[data-size="728x90"] .banner-images .banner-image.banner-image-2, #d6[data-size="468x60"] .banner-images .banner-image.banner-image-2, #d6[data-size="320x50"] .banner-images .banner-image.banner-image-2 {
+        top: 0; }
+    #d6[data-size="728x90"] .banner-messages, #d6[data-size="468x60"] .banner-messages, #d6[data-size="320x50"] .banner-messages {
+      right: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 480px; }
+      #d6[data-size="728x90"] .banner-messages .banner-message, #d6[data-size="468x60"] .banner-messages .banner-message, #d6[data-size="320x50"] .banner-messages .banner-message {
+        position: absolute;
+        font-size: 32px;
+        line-height: 30px;
+        text-align: left;
+        left: 190px;
+        right: 40px;
+        padding: 0;
+        top: 50%;
+        transform: translate(0, -50%); }
+    #d6[data-size="728x90"] .banner-button, #d6[data-size="468x60"] .banner-button, #d6[data-size="320x50"] .banner-button {
+      left: auto;
+      right: 20px;
+      top: 30px;
+      bottom: auto; }
+  #d6[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d6[data-size="468x60"] .banner-logo {
+      bottom: 5px;
+      top: 5px;
+      width: 120px; }
+    #d6[data-size="468x60"] .banner-button {
+      top: 17px;
+      line-height: 25px;
+      right: 15px;
+      font-size: 17px; }
+    #d6[data-size="468x60"] .banner-messages {
+      left: 0;
+      width: 340px; }
+      #d6[data-size="468x60"] .banner-messages .banner-message {
+        left: 150px;
+        right: 20px;
+        font-size: 22px;
+        line-height: 20px; }
+  #d6[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d6[data-size="320x50"] .banner-logo {
+      left: 10px;
+      bottom: 5px;
+      top: 5px;
+      width: 70px; }
+    #d6[data-size="320x50"] .banner-button {
+      top: 14px;
+      line-height: 20px;
+      right: 10px;
+      font-size: 14px;
+      padding: 0 15px; }
+    #d6[data-size="320x50"] .banner-messages {
+      left: 0;
+      width: 220px; }
+      #d6[data-size="320x50"] .banner-messages .banner-message {
+        font-size: 14px;
+        line-height: 14px;
+        left: 90px;
+        right: 10px; }
+
+#d7 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #000;
+  font-weight: normal; }
+  #d7 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    right: 60px;
+    top: 10px;
+    left: 60px;
+    bottom: auto;
+    width: auto;
+    height: 70px;
+    background-size: contain;
+    background-position: 50% 50%;
+    display: none; }
+  #d7 .banner-images {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 200;
+    background: #666;
+    overflow: hidden; }
+    #d7 .banner-images .banner-image {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-position: 50% 50%;
+      transform: scale(1);
+      filter: blur(0);
+      transition: filter 2s; }
+  #d7 .banner-shape {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    opacity: 1;
+    transform: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, transparent 30%, transparent 80%, rgba(0, 0, 0, 0.6) 100%) !important;
+    background-size: 100% 20%; }
+    #d7 .banner-shape:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 3px;
+      top: 3px;
+      bottom: 3px;
+      right: 3px;
+      border: 2px solid #fff;
+      opacity: .4;
+      background: none; }
+  #d7 .banner-button {
+    display: none;
+    position: absolute;
+    z-index: 1200;
+    left: 80px;
+    right: 80px;
+    bottom: 20px;
+    top: auto;
+    padding: 0 20px;
+    min-width: 0;
+    line-height: 20px;
+    width: auto;
+    background: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    border: 1px solid #fff; }
+  #d7 .banner-messages {
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 0;
+    text-rendering: optimizeLegibility; }
+    #d7 .banner-messages .banner-messages-shape {
+      position: absolute;
+      opacity: .45;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      height: auto;
+      background: #000;
+      z-index: 100;
+      display: none; }
+    #d7 .banner-messages .banner-message {
+      display: none;
+      position: absolute;
+      z-index: 200;
+      left: 20px;
+      right: 20px;
+      top: 56%;
+      width: auto;
+      font-size: 12px;
+      line-height: 30px;
+      letter-spacing: 5px;
+      color: #fff;
+      white-space: pre-line;
+      font-weight: 300;
+      transform: translate3d(0, -50%, 0);
+      text-align: center; }
+  #d7[data-size="160x600"], #d7[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d7[data-size="160x600"] .banner-logo, #d7[data-size="300x600"] .banner-logo {
+      top: 30px;
+      right: 40px;
+      left: 40px;
+      bottom: auto;
+      height: 68px;
+      width: auto;
+      background-position: 50% 50%; }
+    #d7[data-size="160x600"] .banner-button, #d7[data-size="300x600"] .banner-button {
+      bottom: 30px; }
+    #d7[data-size="160x600"] .banner-images.banner-image-1, #d7[data-size="300x600"] .banner-images.banner-image-1 {
+      width: 150%; }
+    #d7[data-size="160x600"] .banner-messages, #d7[data-size="300x600"] .banner-messages {
+      top: 0; }
+      #d7[data-size="160x600"] .banner-messages .banner-message, #d7[data-size="300x600"] .banner-messages .banner-message {
+        position: absolute;
+        padding: 30px 0;
+        top: 54%;
+        left: 40px;
+        right: 40px;
+        font-size: 18px;
+        line-height: 50px;
+        letter-spacing: 8px;
+        white-space: pre-line;
+        word-break: break-all;
+        text-shadow: #000 0px 0px 10px; }
+  #d7[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d7[data-size="160x600"] .banner-logo {
+      left: 10px;
+      right: 10px; }
+    #d7[data-size="160x600"] .banner-button {
+      left: 15px;
+      right: 15px;
+      bottom: 20px; }
+    #d7[data-size="160x600"] .banner-messages .banner-message {
+      padding: 20px 0;
+      left: 15px;
+      right: 15px;
+      font-size: 11px;
+      line-height: 30px;
+      letter-spacing: 5px;
+      white-space: normal; }
+  #d7[data-size="728x90"], #d7[data-size="468x60"], #d7[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d7[data-size="728x90"] .banner-shape, #d7[data-size="468x60"] .banner-shape, #d7[data-size="320x50"] .banner-shape {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 30%, transparent 80%, rgba(0, 0, 0, 0.6) 100%) !important; }
+    #d7[data-size="728x90"] .banner-logo, #d7[data-size="468x60"] .banner-logo, #d7[data-size="320x50"] .banner-logo {
+      right: auto;
+      left: 15px;
+      bottom: 15px;
+      top: 15px;
+      width: 160px;
+      height: auto;
+      background-position: 50% 50%; }
+    #d7[data-size="728x90"] .banner-messages .banner-message, #d7[data-size="468x60"] .banner-messages .banner-message, #d7[data-size="320x50"] .banner-messages .banner-message {
+      position: absolute;
+      font-size: 12px;
+      line-height: 22px;
+      letter-spacing: 4px;
+      left: 190px;
+      right: 150px;
+      padding: 0;
+      top: 50%; }
+    #d7[data-size="728x90"] .banner-button, #d7[data-size="468x60"] .banner-button, #d7[data-size="320x50"] .banner-button {
+      left: auto;
+      right: 20px;
+      top: 33px;
+      bottom: auto; }
+  #d7[data-size="468x60"] {
+    width: 468px;
+    height: 60px; }
+    #d7[data-size="468x60"] .banner-logo {
+      bottom: 5px;
+      top: 5px;
+      width: 120px; }
+    #d7[data-size="468x60"] .banner-button {
+      top: 19px;
+      font-size: 11px; }
+    #d7[data-size="468x60"] .banner-messages .banner-message {
+      left: 150px;
+      right: 140px;
+      font-size: 11px;
+      line-height: 12px; }
+  #d7[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d7[data-size="320x50"] .banner-logo {
+      left: 10px;
+      bottom: 5px;
+      top: 5px;
+      width: 70px; }
+    #d7[data-size="320x50"] .banner-button {
+      top: 16px;
+      line-height: 15px;
+      right: 10px;
+      font-size: 9px;
+      padding: 0 8px; }
+    #d7[data-size="320x50"] .banner-messages .banner-message {
+      font-size: 11px;
+      line-height: 11px;
+      left: 90px;
+      right: 90px; }
+
+#d8 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #fff;
+  font-weight: normal; }
+  #d8 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    right: 10px;
+    top: 0;
+    left: calc(50% + 10px);
+    bottom: 50%;
+    width: auto;
+    height: auto;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-color: none;
+    display: block; }
+  #d8 .banner-images {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: 2000;
+    background: none;
+    overflow: hidden; }
+    #d8 .banner-images .banner-image {
+      position: absolute;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 50%;
+      height: 100%;
+      background-position: 100% 50%; }
+      #d8 .banner-images .banner-image.banner-image-2 {
+        width: 100%;
+        height: 50%;
+        z-index: 200; }
+      #d8 .banner-images .banner-image.banner-image-3 {
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        z-index: 300; }
+  #d8 .banner-shape {
+    background: #000;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    width: 50%;
+    height: 50%;
+    z-index: 800;
+    transform: none; }
+  #d8 .banner-button {
+    display: none;
+    position: absolute;
+    z-index: 8200;
+    left: 80px;
+    right: 80px;
+    bottom: auto;
+    top: 50%;
+    margin: -20px 0 0 0;
+    padding: 0 20px;
+    min-width: 0;
+    line-height: 40px;
+    width: auto;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    white-space: nowrap;
+    border: 1px solid #fff; }
+  #d8 .banner-messages {
+    position: absolute;
+    z-index: 300;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    background: #fff;
+    text-rendering: optimizeLegibility; }
+    #d8 .banner-messages .banner-messages-shape {
+      display: none; }
+    #d8 .banner-messages .banner-message {
+      display: none;
+      position: absolute;
+      z-index: 200;
+      left: 20px;
+      right: 20px;
+      top: 50%;
+      width: auto;
+      font-size: 21px;
+      line-height: 23px;
+      letter-spacing: 0;
+      color: #000;
+      white-space: pre-line;
+      font-weight: 300;
+      transform: translate3d(0, -50%, 0);
+      text-align: center; }
+  #d8[data-step="4"] .banner-shape {
+    top: 50%;
+    z-index: 3000; }
+  #d8[data-step="4"] .banner-logo {
+    top: 50%;
+    bottom: 0;
+    z-index: 3001; }
+  #d8[data-step="5"] .banner-shape {
+    top: 50%; }
+  #d8[data-step="5"] .banner-logo {
+    top: 50%;
+    bottom: 0; }
+  #d8[data-step="5"] .banner-messages {
+    top: 50%;
+    left: 0;
+    right: 50%;
+    z-index: 4000; }
+  #d8[data-step="6"] .banner-shape {
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 5000; }
+  #d8[data-step="6"] .banner-logo {
+    top: 0;
+    bottom: 50%;
+    left: 10px;
+    right: calc(50% + 10px);
+    z-index: 5001; }
+  #d8[data-step="7"] .banner-shape {
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 5000; }
+  #d8[data-step="7"] .banner-logo {
+    top: 0;
+    bottom: 50%;
+    right: calc(50% + 10px);
+    left: 10px;
+    z-index: 5001; }
+  #d8[data-step="7"] .banner-messages {
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 50%;
+    z-index: 4000; }
+  #d8[data-size="160x600"], #d8[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d8[data-size="160x600"] .banner-button, #d8[data-size="300x600"] .banner-button {
+      margin-top: -20px; }
+    #d8[data-size="160x600"] .banner-images .banner-image, #d8[data-size="300x600"] .banner-images .banner-image {
+      background-position: 50% 50%; }
+  #d8[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d8[data-size="160x600"] .banner-shape {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: auto;
+      width: 100%;
+      height: 25%; }
+    #d8[data-size="160x600"] .banner-logo {
+      left: 10px;
+      right: 10px;
+      top: 0;
+      height: 25%;
+      width: auto;
+      bottom: auto; }
+    #d8[data-size="160x600"] .banner-button {
+      left: 15px;
+      right: 15px;
+      top: calc(25% + 20px);
+      margin: 0; }
+    #d8[data-size="160x600"] .banner-images {
+      top: 0;
+      width: 100%;
+      height: 100%;
+      bottom: auto;
+      left: 0;
+      right: 0; }
+      #d8[data-size="160x600"] .banner-images .banner-image {
+        width: 100%;
+        height: 50%;
+        left: 0;
+        top: 25%;
+        right: 0;
+        bottom: 0; }
+        #d8[data-size="160x600"] .banner-images .banner-image.banner-image-2 {
+          top: 50%;
+          z-index: 200; }
+    #d8[data-size="160x600"] .banner-messages {
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 25%;
+      bottom: auto;
+      top: 75%; }
+      #d8[data-size="160x600"] .banner-messages .banner-message {
+        padding: 20px 0;
+        left: 15px;
+        right: 15px;
+        font-size: 21px;
+        line-height: 24px;
+        letter-spacing: 0;
+        white-space: normal; }
+    #d8[data-size="160x600"][data-step="4"] .banner-shape {
+      top: 25%;
+      z-index: 4000; }
+    #d8[data-size="160x600"][data-step="4"] .banner-logo {
+      top: 25%;
+      z-index: 4001; }
+    #d8[data-size="160x600"][data-step="5"] .banner-shape {
+      top: 25%;
+      z-index: 4000; }
+    #d8[data-size="160x600"][data-step="5"] .banner-logo {
+      top: 25%;
+      z-index: 4001; }
+    #d8[data-size="160x600"][data-step="5"] .banner-messages {
+      top: 0;
+      z-index: 4000; }
+    #d8[data-size="160x600"][data-step="6"] .banner-shape {
+      top: 75%;
+      z-index: 5000; }
+    #d8[data-size="160x600"][data-step="6"] .banner-logo {
+      top: 75%;
+      z-index: 5001; }
+    #d8[data-size="160x600"][data-step="7"] .banner-shape {
+      top: 75%;
+      z-index: 5000; }
+    #d8[data-size="160x600"][data-step="7"] .banner-logo {
+      top: 75%;
+      z-index: 5001; }
+    #d8[data-size="160x600"][data-step="7"] .banner-messages {
+      top: 0;
+      z-index: 4000; }
+  #d8[data-size="728x90"], #d8[data-size="468x60"], #d8[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d8[data-size="728x90"] .banner-shape, #d8[data-size="468x60"] .banner-shape, #d8[data-size="320x50"] .banner-shape {
+      right: auto;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      width: 25%;
+      height: auto; }
+    #d8[data-size="728x90"] .banner-logo, #d8[data-size="468x60"] .banner-logo, #d8[data-size="320x50"] .banner-logo {
+      right: auto;
+      left: 10px;
+      bottom: 0;
+      top: 0;
+      width: calc(25% - 20px);
+      height: auto; }
+    #d8[data-size="728x90"] .banner-images, #d8[data-size="468x60"] .banner-images, #d8[data-size="320x50"] .banner-images {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+      #d8[data-size="728x90"] .banner-images .banner-image, #d8[data-size="468x60"] .banner-images .banner-image, #d8[data-size="320x50"] .banner-images .banner-image {
+        left: 25%;
+        width: 50%;
+        height: 100%; }
+        #d8[data-size="728x90"] .banner-images .banner-image.banner-image-2, #d8[data-size="468x60"] .banner-images .banner-image.banner-image-2, #d8[data-size="320x50"] .banner-images .banner-image.banner-image-2 {
+          left: 50%;
+          z-index: 200; }
+        #d8[data-size="728x90"] .banner-images .banner-image.banner-image-3, #d8[data-size="468x60"] .banner-images .banner-image.banner-image-3, #d8[data-size="320x50"] .banner-images .banner-image.banner-image-3 {
+          top: 0; }
+    #d8[data-size="728x90"] .banner-messages, #d8[data-size="468x60"] .banner-messages, #d8[data-size="320x50"] .banner-messages {
+      top: 0;
+      right: auto;
+      left: 75%;
+      width: 25%;
+      height: auto;
+      bottom: 0; }
+      #d8[data-size="728x90"] .banner-messages .banner-message.banner-message-3, #d8[data-size="468x60"] .banner-messages .banner-message.banner-message-3, #d8[data-size="320x50"] .banner-messages .banner-message.banner-message-3 {
+        top: 0;
+        transform: none;
+        line-height: 40px; }
+    #d8[data-size="728x90"] .banner-button, #d8[data-size="468x60"] .banner-button, #d8[data-size="320x50"] .banner-button {
+      left: calc(75% + 20px);
+      right: 20px;
+      top: auto;
+      bottom: 10px;
+      margin: 0;
+      line-height: 38px; }
+    #d8[data-size="728x90"][data-step="4"] .banner-shape, #d8[data-size="468x60"][data-step="4"] .banner-shape, #d8[data-size="320x50"][data-step="4"] .banner-shape {
+      left: 25%;
+      z-index: 4000; }
+    #d8[data-size="728x90"][data-step="4"] .banner-logo, #d8[data-size="468x60"][data-step="4"] .banner-logo, #d8[data-size="320x50"][data-step="4"] .banner-logo {
+      left: calc(25% + 10px);
+      z-index: 4001; }
+    #d8[data-size="728x90"][data-step="5"] .banner-shape, #d8[data-size="468x60"][data-step="5"] .banner-shape, #d8[data-size="320x50"][data-step="5"] .banner-shape {
+      left: 25%;
+      z-index: 4000; }
+    #d8[data-size="728x90"][data-step="5"] .banner-logo, #d8[data-size="468x60"][data-step="5"] .banner-logo, #d8[data-size="320x50"][data-step="5"] .banner-logo {
+      left: calc(25% + 10px);
+      z-index: 4001; }
+    #d8[data-size="728x90"][data-step="5"] .banner-messages, #d8[data-size="468x60"][data-step="5"] .banner-messages, #d8[data-size="320x50"][data-step="5"] .banner-messages {
+      left: 0;
+      z-index: 4000; }
+    #d8[data-size="728x90"][data-step="7"] .banner-messages, #d8[data-size="468x60"][data-step="7"] .banner-messages, #d8[data-size="320x50"][data-step="7"] .banner-messages {
+      left: 75%;
+      z-index: 4000; }
+  #d8[data-size="468x60"], #d8[data-size="320x50"] {
+    width: 468px;
+    height: 60px; }
+    #d8[data-size="468x60"] .banner-button, #d8[data-size="320x50"] .banner-button {
+      font-size: 12px;
+      line-height: 22px;
+      right: 10px;
+      bottom: 5px;
+      left: calc(75% + 10px); }
+    #d8[data-size="468x60"] .banner-messages .banner-message, #d8[data-size="320x50"] .banner-messages .banner-message {
+      right: 10px;
+      left: 10px;
+      font-size: 14px;
+      line-height: 15px; }
+      #d8[data-size="468x60"] .banner-messages .banner-message.banner-message-3, #d8[data-size="320x50"] .banner-messages .banner-message.banner-message-3 {
+        line-height: 30px; }
+  #d8[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d8[data-size="320x50"] .banner-button {
+      font-size: 11px;
+      padding: 0;
+      left: calc(75% + 5px);
+      right: 5px; }
+    #d8[data-size="320x50"] .banner-messages .banner-message {
+      font-size: 11px;
+      line-height: 12px; }
+      #d8[data-size="320x50"] .banner-messages .banner-message.banner-message-3 {
+        line-height: 20px; }
+
+#d9 {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  background: #0e1e3f;
+  font-weight: normal; }
+  #d9 .banner-logo {
+    position: absolute;
+    z-index: 900;
+    right: 40px;
+    top: 40px;
+    left: 40px;
+    bottom: 40px;
+    width: auto;
+    height: auto;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-color: none;
+    display: block; }
+  #d9 .banner-images {
+    display: none;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: 2000;
+    background: none;
+    overflow: hidden; }
+    #d9 .banner-images .banner-image {
+      position: absolute;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-position: 50% 50%; }
+      #d9 .banner-images .banner-image.banner-image-1, #d9 .banner-images .banner-image.banner-image-2 {
+        top: 0;
+        width: 150%;
+        height: calc(50% - 25px);
+        z-index: 200;
+        transform: translate3d(-33.33%, 0, 0); }
+      #d9 .banner-images .banner-image.banner-image-2 {
+        top: calc(50% + 25px);
+        transform: translate3d(0, 0, 0); }
+  #d9 .banner-shape {
+    display: none !important; }
+  #d9 .banner-button {
+    display: none;
+    position: absolute;
+    z-index: 8200;
+    left: auto;
+    right: 15px;
+    bottom: auto;
+    top: 15px;
+    margin: 0;
+    padding: 0 20px;
+    min-width: 0;
+    line-height: 27px;
+    width: auto;
+    background: #faaf43;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    border: 0; }
+  #d9 .banner-messages {
+    display: none;
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: calc(50% - 25px);
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    background: none;
+    text-rendering: optimizeLegibility; }
+    #d9 .banner-messages .banner-messages-shape {
+      display: none; }
+    #d9 .banner-messages .banner-message {
+      display: none;
+      position: static;
+      font-size: 22px;
+      line-height: 54px;
+      letter-spacing: 0;
+      color: #fff;
+      white-space: pre-line;
+      font-weight: 400;
+      transform: none;
+      text-align: center; }
+  #d9[data-step="4"] .banner-shape {
+    top: 50%;
+    z-index: 3000; }
+  #d9[data-step="4"] .banner-logo {
+    top: 10px;
+    left: 10px;
+    right: auto;
+    bottom: auto;
+    width: calc(50% - 20px);
+    height: calc(50% - 20px);
+    z-index: 3001; }
+  #d9[data-step="4"] .banner-messages {
+    top: auto;
+    bottom: 0;
+    z-index: 9000;
+    padding: 20px 0 10px 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 50%); }
+    #d9[data-step="4"] .banner-messages .banner-message-3 {
+      position: relative;
+      left: 0;
+      line-height: 25px; }
+  #d9[data-size="160x600"], #d9[data-size="300x600"] {
+    width: 300px;
+    height: 600px; }
+    #d9[data-size="160x600"] .banner-button, #d9[data-size="300x600"] .banner-button {
+      margin: 0;
+      top: 50%;
+      left: 40px;
+      right: 40px;
+      line-height: 35px;
+      font-size: 16px; }
+    #d9[data-size="160x600"] .banner-images .banner-image.banner-image-1, #d9[data-size="300x600"] .banner-images .banner-image.banner-image-1 {
+      height: calc(50% - 75px); }
+    #d9[data-size="160x600"] .banner-images .banner-image.banner-image-2, #d9[data-size="300x600"] .banner-images .banner-image.banner-image-2 {
+      height: calc(50% - 75px);
+      top: calc(50% + 75px); }
+    #d9[data-size="160x600"] .banner-messages, #d9[data-size="300x600"] .banner-messages {
+      top: 50%; }
+      #d9[data-size="160x600"] .banner-messages .banner-message, #d9[data-size="300x600"] .banner-messages .banner-message {
+        transform: translate3d(0, -50%, 0);
+        line-height: 35px;
+        font-size: 30px; }
+    #d9[data-size="160x600"][data-step="4"] .banner-logo, #d9[data-size="300x600"][data-step="4"] .banner-logo {
+      height: 100px;
+      top: 20px;
+      right: 20px;
+      left: 20px;
+      width: auto; }
+    #d9[data-size="160x600"][data-step="4"] .banner-messages, #d9[data-size="300x600"][data-step="4"] .banner-messages {
+      top: 0;
+      margin: 0;
+      padding: 140px 0 0 0;
+      transform: none;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 50%, rgba(0, 0, 0, 0.4) 100%);
+      z-index: 2200; }
+      #d9[data-size="160x600"][data-step="4"] .banner-messages .banner-message, #d9[data-size="300x600"][data-step="4"] .banner-messages .banner-message {
+        transform: none; }
+  #d9[data-size="160x600"] {
+    width: 160px;
+    height: 600px; }
+    #d9[data-size="160x600"] .banner-logo {
+      left: 10px;
+      right: 10px; }
+    #d9[data-size="160x600"] .banner-button {
+      left: 20px;
+      right: 20px;
+      line-height: 27px;
+      font-size: 12px; }
+    #d9[data-size="160x600"] .banner-messages .banner-message {
+      line-height: 28px;
+      font-size: 22px; }
+    #d9[data-size="160x600"][data-step="4"] .banner-logo {
+      left: 10px;
+      right: 10px; }
+  #d9[data-size="728x90"], #d9[data-size="468x60"], #d9[data-size="320x50"] {
+    width: 728px;
+    height: 90px; }
+    #d9[data-size="728x90"] .banner-logo, #d9[data-size="468x60"] .banner-logo, #d9[data-size="320x50"] .banner-logo {
+      left: 10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px; }
+    #d9[data-size="728x90"] .banner-images .banner-image, #d9[data-size="468x60"] .banner-images .banner-image, #d9[data-size="320x50"] .banner-images .banner-image {
+      top: 0;
+      transform: none;
+      height: 100%; }
+      #d9[data-size="728x90"] .banner-images .banner-image.banner-image-1, #d9[data-size="468x60"] .banner-images .banner-image.banner-image-1, #d9[data-size="320x50"] .banner-images .banner-image.banner-image-1 {
+        top: 0;
+        width: 33%;
+        right: auto;
+        height: 150%;
+        transform: translate3d(0, 0, 0); }
+      #d9[data-size="728x90"] .banner-images .banner-image.banner-image-2, #d9[data-size="468x60"] .banner-images .banner-image.banner-image-2, #d9[data-size="320x50"] .banner-images .banner-image.banner-image-2 {
+        top: 0;
+        width: 33%;
+        left: auto;
+        right: 0;
+        height: 150%;
+        transform: translate3d(0, -33.33%, 0); }
+    #d9[data-size="728x90"] .banner-messages, #d9[data-size="468x60"] .banner-messages, #d9[data-size="320x50"] .banner-messages {
+      height: 100%;
+      top: 0; }
+      #d9[data-size="728x90"] .banner-messages .banner-message, #d9[data-size="468x60"] .banner-messages .banner-message, #d9[data-size="320x50"] .banner-messages .banner-message {
+        line-height: 28px;
+        font-size: 22px;
+        position: absolute;
+        transform: translate3d(0, -50%, 0);
+        width: auto;
+        left: 33%;
+        right: 33%;
+        top: 50%; }
+        #d9[data-size="728x90"] .banner-messages .banner-message.banner-message-3, #d9[data-size="468x60"] .banner-messages .banner-message.banner-message-3, #d9[data-size="320x50"] .banner-messages .banner-message.banner-message-3 {
+          left: 140px;
+          right: 140px;
+          text-align: left; }
+    #d9[data-size="728x90"] .banner-button, #d9[data-size="468x60"] .banner-button, #d9[data-size="320x50"] .banner-button {
+      top: 50%;
+      line-height: 26px;
+      margin-top: -13px;
+      font-size: 12px; }
+    #d9[data-size="728x90"][data-step="4"] .banner-logo, #d9[data-size="468x60"][data-step="4"] .banner-logo, #d9[data-size="320x50"][data-step="4"] .banner-logo {
+      right: auto;
+      width: 100px;
+      height: auto;
+      bottom: 10px; }
+    #d9[data-size="728x90"][data-step="4"] .banner-messages, #d9[data-size="468x60"][data-step="4"] .banner-messages, #d9[data-size="320x50"][data-step="4"] .banner-messages {
+      top: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 50%, rgba(0, 0, 0, 0.4) 100%);
+      z-index: 2200;
+      padding: 0; }
+  #d9[data-size="468x60"], #d9[data-size="320x50"] {
+    width: 468px;
+    height: 60px; }
+    #d9[data-size="468x60"] .banner-logo, #d9[data-size="320x50"] .banner-logo {
+      top: 5px;
+      bottom: 5px; }
+    #d9[data-size="468x60"] .banner-button, #d9[data-size="320x50"] .banner-button {
+      line-height: 22px;
+      margin-top: -11px;
+      padding: 0 10px; }
+    #d9[data-size="468x60"] .banner-messages .banner-message, #d9[data-size="320x50"] .banner-messages .banner-message {
+      font-size: 14px;
+      line-height: 15px; }
+    #d9[data-size="468x60"][data-step="4"] .banner-logo, #d9[data-size="320x50"][data-step="4"] .banner-logo {
+      width: 80px;
+      background-position: 0 50%; }
+    #d9[data-size="468x60"][data-step="4"] .banner-messages .banner-message, #d9[data-size="320x50"][data-step="4"] .banner-messages .banner-message {
+      left: 100px;
+      right: 100px; }
+  #d9[data-size="320x50"] {
+    width: 320px;
+    height: 50px; }
+    #d9[data-size="320x50"] .banner-button {
+      font-size: 11px; }
+    #d9[data-size="320x50"] .banner-messages .banner-message {
+      font-size: 11px;
+      line-height: 12px; }
+    #d9[data-size="320x50"][data-step="4"] .banner-logo {
+      width: 60px; }
+    #d9[data-size="320x50"][data-step="4"] .banner-messages .banner-message {
+      left: 70px;
+      right: 90px; }
